@@ -1,9 +1,19 @@
 <div>
-  <prism-block [code]="cssCode" [language]="'js'"></prism-block>
+  <prism-block [code]="CodeContent[0].content" [language]= "CodeContent[0].language"></prism-block>
 </div>
 
 
-<!-- Colored FAB button -->
-<button class="mdl-button mdl-js-button mdl-button--fab mdl-button--colored">
-  <i class="material-icons">add</i>
-</button>
+<div>
+    <prism-block [code]="CodeContent[1].content" [language]= "CodeContent[1].language"></prism-block>
+</div>
+
+
+<div>
+    <prism-block [code]="CodeContent[2].content" [language]= "CodeContent[2].language"></prism-block>
+</div>
+
+
+
+<div>
+    <prism-block [code]="CodeContent[3].content" [language]= "CodeContent[3].language"></prism-block>
+</div>
