@@ -19,9 +19,12 @@
       "testTsconfig": "tsconfig.spec.json",
       "prefix": "app",
       "styles": [
+        "../node_modules/material-design-lite/dist/material.blue-light_blue.min.css",
         "styles.scss"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/material-design-lite/material.min.js"
+      ],
       "environmentSource": "environments/environment.ts",
       "environments": {
         "dev": "environments/environment.ts",
