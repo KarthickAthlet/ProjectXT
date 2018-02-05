@@ -17,6 +17,7 @@ import 'prismjs/components/prism-typescript';
 import { PrismComponent } from 'angular-prism';
 import { CodeHighlightComponent } from './components/code-highlight/code-highlight.component';
 import { SideNavigationComponent } from './components/side-navigation/side-navigation.component';
+import { DescriptionContainerComponent } from './components/description-container/description-container.component';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { SideNavigationComponent } from './components/side-navigation/side-navig
     MainContainerComponent,
     PrismComponent,
     CodeHighlightComponent,
-    SideNavigationComponent
+    SideNavigationComponent,
+    DescriptionContainerComponent
   ],
   imports: [
     BrowserModule,
