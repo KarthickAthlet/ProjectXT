@@ -18,6 +18,8 @@ import { PrismComponent } from 'angular-prism';
 import { CodeHighlightComponent } from './components/code-highlight/code-highlight.component';
 import { SideNavigationComponent } from './components/side-navigation/side-navigation.component';
 import { DescriptionContainerComponent } from './components/description-container/description-container.component';
+import { CodeUploaderComponent } from './components/code-uploader/code-uploader.component';
+import { ImageUploaderComponent } from './components/image-uploader/image-uploader.component';
 
 
 @NgModule({
@@ -29,7 +31,9 @@ import { DescriptionContainerComponent } from './components/description-containe
     PrismComponent,
     CodeHighlightComponent,
     SideNavigationComponent,
-    DescriptionContainerComponent
+    DescriptionContainerComponent,
+    CodeUploaderComponent,
+    ImageUploaderComponent
   ],
   imports: [
     BrowserModule,
