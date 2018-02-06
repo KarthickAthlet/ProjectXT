@@ -20,6 +20,7 @@ import { SideNavigationComponent } from './components/side-navigation/side-navig
 import { DescriptionContainerComponent } from './components/description-container/description-container.component';
 import { CodeUploaderComponent } from './components/code-uploader/code-uploader.component';
 import { ImageUploaderComponent } from './components/image-uploader/image-uploader.component';
+import { PresentationSliderComponent } from './components/presentation-slider/presentation-slider.component';
 
 
 @NgModule({
@@ -33,7 +34,8 @@ import { ImageUploaderComponent } from './components/image-uploader/image-upload
     SideNavigationComponent,
     DescriptionContainerComponent,
     CodeUploaderComponent,
-    ImageUploaderComponent
+    ImageUploaderComponent,
+    PresentationSliderComponent
   ],
   imports: [
     BrowserModule,
