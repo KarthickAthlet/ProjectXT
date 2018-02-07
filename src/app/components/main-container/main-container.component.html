@@ -30,6 +30,11 @@
   </div>
   <main class="mdl-layout__content mdl-color--grey-100">
     <div class="mdl-grid demo-content">
+      <ul>
+        <li class="text" style="display:unset" *ngFor="let item of items | async">
+          {{item.name | json}}
+        </li>
+      </ul>
       <app-file-structure></app-file-structure>
       <app-code-uploader></app-code-uploader>
       <app-code-highlight></app-code-highlight>

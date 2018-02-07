@@ -8,6 +8,13 @@ import { HeaderComponent } from './components/header/header.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { MainContainerComponent } from './components/main-container/main-container.component';
 
+// firebase configuration imports
+import { AngularFireModule } from 'angularfire2';
+import { FirebaseConfig } from '../environments/firebase.config';
+import { AngularFirestoreModule } from 'angularfire2/firestore';
+import { AngularFireAuthModule } from 'angularfire2/auth';
+import { AngularFireDatabaseModule } from 'angularfire2/database';
+
 /* Import prism core */
 import 'prismjs/prism';
 
@@ -41,7 +48,11 @@ import { FileStructureComponent } from './components/file-structure/file-structu
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AngularFireModule.initializeApp(FirebaseConfig.firebase),
+    AngularFirestoreModule,
+    AngularFireAuthModule,
+    AngularFireDatabaseModule
   ],
   providers: [],
   bootstrap: [AppComponent],
