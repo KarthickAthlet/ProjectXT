@@ -21,6 +21,7 @@ import { DescriptionContainerComponent } from './components/description-containe
 import { CodeUploaderComponent } from './components/code-uploader/code-uploader.component';
 import { ImageUploaderComponent } from './components/image-uploader/image-uploader.component';
 import { PresentationSliderComponent } from './components/presentation-slider/presentation-slider.component';
+import { FileStructureComponent } from './components/file-structure/file-structure.component';
 
 
 @NgModule({
@@ -35,7 +36,8 @@ import { PresentationSliderComponent } from './components/presentation-slider/pr
     DescriptionContainerComponent,
     CodeUploaderComponent,
     ImageUploaderComponent,
-    PresentationSliderComponent
+    PresentationSliderComponent,
+    FileStructureComponent
   ],
   imports: [
     BrowserModule,
